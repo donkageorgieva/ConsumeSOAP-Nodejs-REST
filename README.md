@@ -28,10 +28,20 @@ Base URL: GET https://convert-metrics-rest-api.herokuapp.com/
 
 ### Convert from Lb to Kg
 
-#### GET https://convert-metrics-rest-api.herokuapp.com/to-kg/lbs <br />
+#### GET https://convert-metrics-rest-api.herokuapp.com/to-kg/:lbs <br />
 
 <b> lbs = double </b> </br>
 
 #### Example: </br>
 
 <b> GET https://convert-metrics-rest-api.herokuapp.com/to-kg/121 </b> <br />
+
+### Convert from Kg to Lb
+
+#### GET https://convert-metrics-rest-api.herokuapp.com/to-lb/:kgs <br />
+
+<b> kgs = double </b> </br>
+
+#### Example: </br>
+
+<b> GET https://convert-metrics-rest-api.herokuapp.com/to-lb/54.99 </b> <br />
