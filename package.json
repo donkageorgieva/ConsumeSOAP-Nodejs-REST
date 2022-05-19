@@ -10,7 +10,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serv": "nodemon ./app.js"
+    "serv": "nodemon ./app.js",
+    "start": "node app.js"
   },
   "engines": {
     "node": "16.13.1"
