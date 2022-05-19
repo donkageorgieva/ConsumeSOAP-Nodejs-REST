@@ -37,7 +37,7 @@ export const lbToKg = (req, res) => {
   soap.createClient(wsdlUrl, function (err, client) {
     client.LbToKg({ "lb": req.params["lbs"] }, function (err, result) {
       res.send({
-        lbs: result.LbToKgResult,
+        kgs: result.LbToKgResult,
       });
     });
   });
